@@ -17,10 +17,18 @@ color Tomorrow-Night
 set number
 
 " Tabsize
+set autoindent
+set smartindent
+set noexpandtab
 set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 
-" Indent at the same level of the previous line
-set autoindent                  
+" Move between splits
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
 
 " Start scrolling three lines before the horizontal window border
 set scrolloff=3
@@ -30,4 +38,7 @@ set shortmess=atI
 
 " Enable mouse in all modes
 set mouse=a
+
+" Preventing swap files from being created.
+set noswapfile
 
