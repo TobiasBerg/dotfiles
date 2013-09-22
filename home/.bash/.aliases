@@ -1,0 +1,1 @@
+alias pyserv='python -m SimpleHTTPServer'
