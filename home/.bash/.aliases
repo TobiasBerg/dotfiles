@@ -1,1 +1,4 @@
 alias pyserv='python -m SimpleHTTPServer'
+alias gco='git co'
+alias gci='git ci'
+alias grb='git rb'

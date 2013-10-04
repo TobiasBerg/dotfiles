@@ -3,6 +3,8 @@
 	s = status -s
 	st = status
 	co = checkout
+	ci = commit
+	rb = rebase
 [color]
 	ui = true
 [user]
