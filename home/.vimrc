@@ -17,12 +17,14 @@ color Tomorrow-Night
 set number
 
 " Tabsize
-set autoindent
-set smartindent
-set noexpandtab
 set tabstop=4
-set softtabstop=4
 set shiftwidth=4
+set expandtab
+"set autoindent
+"set smartindent
+"set tabstop=4
+"set softtabstop=4
+"set shiftwidth=4
 
 " Move between splits
 nmap <silent> <A-Up> :wincmd k<CR>
@@ -47,3 +49,9 @@ autocmd BufReadPost *
 	\ if line("'\"") > 0 && line("'\"") <= line("$") |
 	\   exe "normal g`\"" |
 	\ endif
+
+"NERDTree setup
+autocmd vimenter * NERDTree
+let NERDTreeShowHidden=1
+let NERDTreeIgnore = ['\.pyc$']
+
