@@ -1,11 +1,21 @@
-" Pathogen
-call pathogen#infect()
-
 syntax on
 filetype plugin indent on
 
 " Set leader to ,
 let mapleader = ","
+
+set rtp+=~/.vim/bundle/neobundle.vim
+call neobundle#begin(expand('~/.vim/bundle/'))
+
+NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'squarefrog/tomorrow-night.vim'
+NeoBundle 'scrooloose/syntastic'
+
+call neobundle#end()
+
+filetype plugin indent on
 
 " Some keybindings
 nnoremap <leader>n :NERDTreeToggle<cr>
@@ -20,11 +30,6 @@ set number
 set tabstop=4
 set shiftwidth=4
 set expandtab
-"set autoindent
-"set smartindent
-"set tabstop=4
-"set softtabstop=4
-"set shiftwidth=4
 
 " Move between splits
 nmap <silent> <A-Up> :wincmd k<CR>
