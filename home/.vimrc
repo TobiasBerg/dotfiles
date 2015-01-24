@@ -12,6 +12,7 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'squarefrog/tomorrow-night.vim'
+NeoBundle 'Shougo/neocomplcache.vim'
 
 call neobundle#end()
 
@@ -55,8 +56,10 @@ autocmd BufReadPost *
 	\   exe "normal g`\"" |
 	\ endif
 
-"NERDTree setup
+" NERDTree setup
 autocmd vimenter * NERDTree
 let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['\.pyc$']
 
+" neocomplcache setup
+let g:neocomplcache_enable_at_startup = 1
