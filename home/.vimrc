@@ -10,8 +10,8 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'squarefrog/tomorrow-night.vim'
 NeoBundle 'scrooloose/syntastic'
+NeoBundle 'squarefrog/tomorrow-night.vim'
 
 call neobundle#end()
 
@@ -21,7 +21,7 @@ filetype plugin indent on
 nnoremap <leader>n :NERDTreeToggle<cr>
 
 " Color theme
-color Tomorrow-Night
+colorscheme tomorrow-night
 
 " Show line numbers
 set number
