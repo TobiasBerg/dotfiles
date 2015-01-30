@@ -7,3 +7,4 @@ export NODE_ENV=development
 source ~/.bash/.git-completion
 source ~/.bash/.aliases
 source ~/.bash/.shell
+source ~/.rvm/scripts/rvm
