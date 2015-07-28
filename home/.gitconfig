@@ -8,8 +8,8 @@
 [color]
 	ui = true
 [user]
-	name = TobiasBerg
-	email = tb@tobiasberg.net
+	name = Tobias Berg
+	email = "(none)"
 [credential]
 	helper = osxkeychain
 [core]
