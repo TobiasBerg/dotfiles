@@ -3,7 +3,7 @@ export ZSH=/Users/tbt/.oh-my-zsh
 CASE_SENSITIVE="true"
 
 # oh-my-zsh plugins
-plugins=(git heroku osx jira)
+plugins=(git heroku osx zsh-syntax-highlighting)
 
 # User configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
