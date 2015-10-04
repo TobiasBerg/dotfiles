@@ -1,6 +1,5 @@
 export ZSH=/Users/tbt/.oh-my-zsh
 
-ZSH_THEME="pure"
 CASE_SENSITIVE="true"
 
 # oh-my-zsh plugins
@@ -23,6 +22,8 @@ alias st='sourcetree'
 # Setup pure
 autoload -U promptinit && promptinit
 prompt pure
+
+ZSH_THEME="pure"
 
 # Setup Z
 source ~/dev/z/z.sh
