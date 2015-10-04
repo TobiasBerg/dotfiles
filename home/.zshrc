@@ -27,3 +27,6 @@ ZSH_THEME="pure"
 
 # Setup Z
 source ~/dev/z/z.sh
+
+# Setup aliases
+source ~/.aliases

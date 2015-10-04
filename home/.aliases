@@ -1,0 +1,12 @@
+# Opens Sourcetree with the current directory
+alias st='open -a SourceTree'
+
+# Flush Directory Service cache
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Google Public DNS fix
+alias dns-fix='sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4'
+alias dns-reset='sudo networksetup -setdnsservers Wi-Fi empty'
