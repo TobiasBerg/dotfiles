@@ -64,3 +64,6 @@ let NERDTreeIgnore = ['\.pyc$']
 
 " neocomplcache setup
 let g:neocomplcache_enable_at_startup = 1
+
+" Close vim if NERDTree is the only buffer left
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
