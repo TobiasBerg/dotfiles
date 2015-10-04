@@ -9,7 +9,7 @@
 	ui = true
 [user]
 	name = Tobias Berg
-	email = "(none)"
+	email = "tb@tobiasberg.net"
 [credential]
 	helper = osxkeychain
 [core]
