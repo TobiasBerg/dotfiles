@@ -11,9 +11,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'chriskempson/vim-tomorrow-theme'
-NeoBundle 'scrooloose/syntastic'
 NeoBundle 'squarefrog/tomorrow-night.vim'
-NeoBundle 'Shougo/neocomplcache.vim'
 
 call neobundle#end()
 
