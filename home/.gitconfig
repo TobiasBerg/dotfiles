@@ -9,12 +9,12 @@
 	ui = true
 [user]
 	name = Tobias Berg
-	email = "tb@tobiasberg.net"
+	email = tb@tobiasberg.net
 [credential]
 	helper = osxkeychain
 [core]
 	editor = vim
-	excludesfile = /Users/tobias/.gitignore_global
+	excludesfile = /Users/tbt/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
