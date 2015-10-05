@@ -15,10 +15,6 @@ export NVM_DIR="/Users/tbt/.nvm"
 
 export NODE_ENV=development
 
-# Alias
-alias pyserv='python -m SimpleHTTPServer'
-alias st='sourcetree'
-
 # Setup pure
 autoload -U promptinit && promptinit
 prompt pure
