@@ -90,3 +90,6 @@ defaults write com.apple.addressbook ABShowDebugMenu -bool true
 # Disable mouse acceleration (requires le-log)
 defaults write .GlobalPreferences com.apple.mouse.scaling -1
 
+# Disable magnification of mouse when shaking it
+defaults write ~/Library/Preferences/.GlobalPreferences CGDisableCursorLocationMagnification -bool YES
+
