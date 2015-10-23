@@ -2,7 +2,7 @@
 alias st='open -a SourceTree'
 
 # Flush Directory Service cache
-alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+alias flush="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
