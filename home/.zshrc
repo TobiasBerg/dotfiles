@@ -24,3 +24,7 @@ source ~/dev/z/z.sh
 
 # Setup aliases
 source ~/.aliases
+
+# Setup local env vars
+source ~/.devenv.sh
+
