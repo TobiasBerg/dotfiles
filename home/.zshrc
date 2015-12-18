@@ -3,7 +3,7 @@ export ZSH=/Users/tbt/.oh-my-zsh
 CASE_SENSITIVE="true"
 
 # oh-my-zsh plugins
-plugins=(git heroku zsh-syntax-highlighting)
+plugins=(git heroku rbenv zsh-syntax-highlighting)
 
 # User configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
