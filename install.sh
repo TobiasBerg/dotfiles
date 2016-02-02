@@ -8,3 +8,4 @@ if [[ ! -d $HOME/.vim/bundle/neobundle.vim ]]; then
   git clone git://github.com/Shougo/neobundle.vim $HOME/.vim/bundle/neobundle.vim
   vim +NeoBundleInstall +qall
 fi
+
