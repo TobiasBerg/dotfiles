@@ -28,3 +28,4 @@ source ~/.aliases
 # Setup local env vars
 source ~/.devenv.sh
 
+export PATH="/usr/local/sbin:$PATH"
