@@ -21,3 +21,5 @@ alias dns-reset='sudo networksetup -setdnsservers Wi-Fi empty'
 # Getting Twitch to work in Asia
 alias livestreamer='livestreamer --hls-segment-threads 10 --hds-segment-threads 10'
 
+# Don't fuck up when deleting stuff
+alias rm='trash'
