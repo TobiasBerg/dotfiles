@@ -29,3 +29,5 @@ source ~/.aliases
 source ~/.devenv.sh
 
 export PATH="/usr/local/sbin:$PATH"
+
+export PATH="/Users/tbt/.yarn/bin:$PATH"
