@@ -5,7 +5,7 @@ alias st='open -a SourceTree'
 alias flush="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 
 # Lock the screen (when going AFK)
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+alias afk="pmset sleepnow"
 
 # Google Public DNS fix
 alias dns-fix='sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4'
