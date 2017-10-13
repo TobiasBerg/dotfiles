@@ -1,4 +1,5 @@
 .DS_Store
 .netrwhist
 home/.vim/bundle
+home/.devenv
 .idea/
