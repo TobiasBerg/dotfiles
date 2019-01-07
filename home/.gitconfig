@@ -24,7 +24,7 @@
 [push]
 	default = simple
 [merge]
-	ff = false
+	ff = true
 [pager]
     diff = diff-so-fancy | less --tabs=1,5 -RFX
     show = diff-so-fancy | less --tabs=1,5 -RFX
