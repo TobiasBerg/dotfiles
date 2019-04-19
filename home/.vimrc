@@ -4,16 +4,16 @@ filetype plugin indent on
 " Set leader to ,
 let mapleader = ","
 
-set rtp+=~/.vim/bundle/neobundle.vim
-call neobundle#begin(expand('~/.vim/bundle/'))
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-NeoBundleFetch 'Shougo/neobundle.vim'
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'chriskempson/vim-tomorrow-theme'
-NeoBundle 'squarefrog/tomorrow-night.vim'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
+Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'squarefrog/tomorrow-night.vim'
 
-call neobundle#end()
+call vundle#end()
 
 filetype plugin indent on
 

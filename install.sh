@@ -3,9 +3,8 @@ set -ex
 
 mkdir -p $HOME/.vim;
 
-if [[ ! -d $HOME/.vim/bundle/neobundle.vim ]]; then
-  echo "Installing neobundle..."
-  git clone git://github.com/Shougo/neobundle.vim $HOME/.vim/bundle/neobundle.vim
-  vim +NeoBundleInstall +qall
+if [[ ! -d $HOME/.vim/bundle/Vundle.vim ]]; then
+  echo "Installing Vundle..."
+  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  vim +PluginInstall +qall
 fi
-
