@@ -9,7 +9,7 @@ export NVM_AUTO_USE=true
 export PURE_CMD_MAX_EXEC_TIME=1
 
 # oh-my-zsh plugins
-plugins=(git heroku rbenv zsh-syntax-highlighting zsh-nvm)
+plugins=(git rbenv)
 
 # User configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
