@@ -45,3 +45,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/usr/local/go/bin:$PATH"
 export GOPATH="/Users/tbt/dev/go"
 export PATH=$PATH:$GOPATH/bin
+
+# .NET
+export PATH="/usr/local/share/dotnet:$PATH"
+
